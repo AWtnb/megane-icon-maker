@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="ui">
+            <input type="button" value="CHANGE!" onclick="randomCol()" class="changeButton">
+        </div>
+
+        <div id="container">
+            <div id="megane"></div>
+        </div>
+
+        <div class="colorCode">------</div>
+
+        <div class="ui">
+            <input type="button" value="CONVERT!" onclick="convertAsImg()" class="changeButton">
+        </div>
+
+        <div id="converter">
+            <img id="output">
+        </div>
+    </body>
+    <script type="text/javascript" src="./html2canvas.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</html>

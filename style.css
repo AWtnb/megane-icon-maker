@@ -1,0 +1,213 @@
+#container {
+  background-color: #ccc;
+  height: 320px;
+  width: 320px;
+  margin-left: 10px;
+}
+#converter {
+  border: tomato 1px solid;
+  width: 320px;
+  height: 320px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.ui {
+  margin: 10px 0;
+}
+.ui input {
+  border-radius: 3px;
+}
+.colorCode {
+  width: 320px;
+  text-align: end;
+  font-family: "Hackgen", sans-serif;
+}
+.colorCode::before {
+  content: "#";
+}
+#megane {
+  background: transparent;
+  width: 10px;
+  height: 10px;
+
+  box-shadow:
+
+  50px  130px #333333,
+  60px  130px #333333,
+  70px  130px #333333,
+  80px  130px #333333,
+  90px  130px #333333,
+  100px 130px #333333,
+  110px 130px #333333,
+  120px 130px #333333,
+  130px 130px #333333,
+  180px 130px #333333,
+  190px 130px #333333,
+  200px 130px #333333,
+  210px 130px #333333,
+  220px 130px #333333,
+  230px 130px #333333,
+  240px 130px #333333,
+  250px 130px #333333,
+  260px 130px #333333,
+
+  30px  140px #333333,
+  40px  140px #333333,
+  50px  140px #333333,
+  60px  140px #d7edeb,
+  70px  140px #d7edeb,
+  80px  140px #d7edeb,
+  90px  140px #d7edeb,
+  100px 140px #d7edeb,
+  110px 140px #d7edeb,
+  120px 140px #d7edeb,
+  130px 140px #333333,
+  140px 140px #333333,
+  170px 140px #333333,
+  180px 140px #333333,
+  190px 140px #d7edeb,
+  200px 140px #d7edeb,
+  210px 140px #d7edeb,
+  220px 140px #d7edeb,
+  230px 140px #d7edeb,
+  240px 140px #d7edeb,
+  250px 140px #d7edeb,
+  260px 140px #333333,
+  270px 140px #333333,
+  280px 140px #333333,
+
+  30px  150px #333333,
+  40px  150px #333333,
+  50px  150px #d7edeb,
+  60px  150px #d7edeb,
+  70px  150px #d7edeb,
+  80px  150px #d7edeb,
+  90px  150px #d7edeb,
+  100px 150px #d7edeb,
+  110px 150px #d7edeb,
+  120px 150px #d7edeb,
+  130px 150px #d7edeb,
+  140px 150px #333333,
+  150px 150px #333333,
+  160px 150px #333333,
+  170px 150px #333333,
+  180px 150px #d7edeb,
+  190px 150px #d7edeb,
+  200px 150px #d7edeb,
+  210px 150px #d7edeb,
+  220px 150px #d7edeb,
+  230px 150px #d7edeb,
+  240px 150px #d7edeb,
+  250px 150px #d7edeb,
+  260px 150px #d7edeb,
+  270px 150px #333333,
+  280px 150px #333333,
+
+  40px  160px #333333,
+  50px  160px #d7edeb,
+  60px  160px #d7edeb,
+  70px  160px #d7edeb,
+  80px  160px #d7edeb,
+  90px  160px #d7edeb,
+  100px 160px #d7edeb,
+  110px 160px #d7edeb,
+  120px 160px #d7edeb,
+  130px 160px #d7edeb,
+  140px 160px #333333,
+  150px 160px #333333,
+  160px 160px #333333,
+  170px 160px #333333,
+  180px 160px #d7edeb,
+  190px 160px #d7edeb,
+  200px 160px #d7edeb,
+  210px 160px #d7edeb,
+  220px 160px #d7edeb,
+  230px 160px #d7edeb,
+  240px 160px #d7edeb,
+  250px 160px #d7edeb,
+  260px 160px #d7edeb,
+  270px 160px #333333,
+
+  40px  170px #333333,
+  50px  170px #d7edeb,
+  60px  170px #d7edeb,
+  70px  170px #d7edeb,
+  80px  170px #d7edeb,
+  90px  170px #d7edeb,
+  100px 170px #d7edeb,
+  110px 170px #d7edeb,
+  120px 170px #d7edeb,
+  130px 170px #d7edeb,
+  140px 170px #333333,
+  170px 170px #333333,
+  180px 170px #d7edeb,
+  190px 170px #d7edeb,
+  200px 170px #d7edeb,
+  210px 170px #d7edeb,
+  220px 170px #d7edeb,
+  230px 170px #d7edeb,
+  240px 170px #d7edeb,
+  250px 170px #d7edeb,
+  260px 170px #d7edeb,
+  270px 170px #333333,
+
+  40px  180px #333333,
+  50px  180px #d7edeb,
+  60px  180px #d7edeb,
+  70px  180px #d7edeb,
+  80px  180px #d7edeb,
+  90px  180px #d7edeb,
+  100px 180px #d7edeb,
+  110px 180px #d7edeb,
+  120px 180px #d7edeb,
+  130px 180px #d7edeb,
+  140px 180px #333333,
+  170px 180px #333333,
+  180px 180px #d7edeb,
+  190px 180px #d7edeb,
+  200px 180px #d7edeb,
+  210px 180px #d7edeb,
+  220px 180px #d7edeb,
+  230px 180px #d7edeb,
+  240px 180px #d7edeb,
+  250px 180px #d7edeb,
+  260px 180px #d7edeb,
+  270px 180px #333333,
+
+  50px  190px #333333,
+  60px  190px #d7edeb,
+  70px  190px #d7edeb,
+  80px  190px #d7edeb,
+  90px  190px #d7edeb,
+  100px 190px #d7edeb,
+  110px 190px #d7edeb,
+  120px 190px #d7edeb,
+  130px 190px #333333,
+  180px 190px #333333,
+  190px 190px #d7edeb,
+  200px 190px #d7edeb,
+  210px 190px #d7edeb,
+  220px 190px #d7edeb,
+  230px 190px #d7edeb,
+  240px 190px #d7edeb,
+  250px 190px #d7edeb,
+  260px 190px #333333,
+
+  60px  200px #333333,
+  70px  200px #333333,
+  80px  200px #333333,
+  90px  200px #333333,
+  100px 200px #333333,
+  110px 200px #333333,
+  120px 200px #333333,
+  190px 200px #333333,
+  190px 200px #333333,
+  200px 200px #333333,
+  210px 200px #333333,
+  220px 200px #333333,
+  230px 200px #333333,
+  240px 200px #333333,
+  250px 200px #333333,
+
+  310px 300px transparent;
+}
