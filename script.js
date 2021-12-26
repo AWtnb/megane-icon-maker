@@ -8,18 +8,13 @@ function randomCol() {
     document.querySelector("#container").style.background = `#${colorCode}`;
 }
 
-function daveCanvasPng(canvas) {
-    const fileName = "megane";
-    const link = document.createElement("a");
-    link.download = fileName + ".png";
-    canvas.toBlob(blob => {
-        link.href = URL.createObjectURL(blob);
-        link.click();
-    });
+function asImageFile(canvas) {
+    const i = canvas.toDataURL("image/png");
+    window.open(i)
 }
 
 
 function convertAsImg() {
-    const data = document.querySelector("#container");
-    html2canvas(data).then(daveCanvasPng);
+    const data = document.getElementById("container");
+    html2canvas(data, {scale: "1"}).then(asImageFile);
 }

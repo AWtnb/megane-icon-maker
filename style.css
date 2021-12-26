@@ -2,27 +2,30 @@ body {
   margin: 20px;
 }
 
-#container {
-  background-color: #ccc;
-  height: 320px;
-  width: 320px;
-}
 .ui {
   margin: 10px 0;
 }
 .colorCode {
   width: 320px;
   text-align: end;
-  font-family: "Hackgen", sans-serif;
 }
 .colorCode::before {
   content: "#";
 }
+
+#container {
+  background-color: #ccc;
+  height: 320px;
+  width: 320px;
+  position: relative;
+}
 #megane {
+  position: absolute;
   background: transparent;
+  top: 0;
+  left: 0;
   width: 10px;
   height: 10px;
-
   box-shadow:
 
   50px  130px #333333,
