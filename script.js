@@ -8,10 +8,18 @@ function randomCol() {
     document.querySelector("#container").style.background = `#${colorCode}`;
 }
 
-function convertAsImg() {
-    html2canvas(document.querySelector("#container")).then(canvas => {
-        const imgData = canvas.toDataURL();
-        const outputArea = document.querySelector("#output");
-        outputArea.src = imgData;
+function daveCanvasPng(canvas) {
+    const fileName = "megane";
+    const link = document.createElement("a");
+    link.download = fileName + ".png";
+    canvas.toBlob(blob => {
+        link.href = URL.createObjectURL(blob);
+        link.click();
     });
+}
+
+
+function convertAsImg() {
+    const data = document.querySelector("#container");
+    html2canvas(data).then(daveCanvasPng);
 }

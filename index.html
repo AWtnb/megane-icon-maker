@@ -1,12 +1,15 @@
 <html>
     <head>
-        <link rel="shortcut icon" href="favicon.ico">
+        <!-- <link rel="shortcut icon" href="favicon.ico"> -->
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>&#x1f453;</text></svg>">
+        <title>iconmaker</title>
     </head>
     <body>
 
         <div class="ui">
-            <input type="button" value="CHANGE!" onclick="randomCol()" class="changeButton">
+            <input type="button" value="flip" onclick="randomCol()" class="changeButton">
         </div>
 
         <div id="container">
@@ -16,12 +19,9 @@
         <div class="colorCode">------</div>
 
         <div class="ui">
-            <input type="button" value="CONVERT!" onclick="convertAsImg()" class="changeButton">
+            <input type="button" value="save" onclick="convertAsImg()" class="changeButton">
         </div>
 
-        <div id="converter">
-            <img id="output">
-        </div>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
     <script type="text/javascript" src="./script.js"></script>

@@ -1,21 +1,14 @@
+body {
+  margin: 20px;
+}
+
 #container {
   background-color: #ccc;
   height: 320px;
   width: 320px;
-  margin-left: 10px;
-}
-#converter {
-  border: tomato 1px solid;
-  width: 320px;
-  height: 320px;
-  margin: 20px 0 0 0;
-  padding: 10px;
 }
 .ui {
   margin: 10px 0;
-}
-.ui input {
-  border-radius: 3px;
 }
 .colorCode {
   width: 320px;
