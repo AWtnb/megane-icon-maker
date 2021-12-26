@@ -10,7 +10,7 @@ function randomCol() {
 
 function asImageFile(canvas) {
     const i = canvas.toDataURL("image/png");
-    window.open(i)
+    document.getElementById("output").setAttribute("src", i);
 }
 
 
