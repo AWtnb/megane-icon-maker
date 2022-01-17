@@ -5,7 +5,7 @@ function randomizer() {
 function randomCol() {
     const colorCode = randomizer();
     document.querySelector(".colorCode").innerHTML = colorCode;
-    document.querySelector("#container").style.background = `#${colorCode}`;
+    document.querySelector("#megane").style.background = `#${colorCode}`;
 }
 
 function asImageFile(canvas) {
@@ -13,8 +13,8 @@ function asImageFile(canvas) {
     document.getElementById("output").setAttribute("src", i);
 }
 
-
 function convertAsImg() {
-    const data = document.getElementById("container");
-    html2canvas(data, {scale: "1"}).then(asImageFile);
+    const data = document.getElementById("megane");
+    const ratio = document.getElementById("size").value;
+    html2canvas(data, {scale: ratio}).then(asImageFile);
 }

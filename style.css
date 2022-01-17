@@ -1,6 +1,5 @@
 :root {
   --max-px: 320px;
-  --base-box:calc(var(--max-px) / 32);
 }
 
 body {
@@ -24,197 +23,22 @@ body {
   height: var(--max-px);
 }
 
-#container {
+#megane {
   background-color: #ccc;
   height: var(--max-px);
   width: var(--max-px);
   position: relative;
 }
-#megane {
+.flame, .glass {
+  width: calc(1/32 * 100%);
+  height: calc(1/32 * 100%);
   position: absolute;
-  background: transparent;
-  top: 0;
-  left: 0;
-  width: var(--base-box);
-  height: var(--base-box);
-  box-shadow:
-
-  calc(var(--base-box)*5)  calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*6)  calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*7)  calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*8)  calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*9)  calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*10) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*11) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*12) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*13) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*19) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*20) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*21) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*22) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*23) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*24) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*25) calc(var(--base-box)*13) #333333,
-  calc(var(--base-box)*26) calc(var(--base-box)*13) #333333,
-
-  calc(var(--base-box)*3)  calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*4)  calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*5)  calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*6)  calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*14) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*17) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*19) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*14) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*27) calc(var(--base-box)*14) #333333,
-  calc(var(--base-box)*28) calc(var(--base-box)*14) #333333,
-
-  calc(var(--base-box)*3) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*4)  calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*5)  calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*6)  calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*14) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*15) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*16) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*17) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*19) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*15) #d7edeb,
-  calc(var(--base-box)*27) calc(var(--base-box)*15) #333333,
-  calc(var(--base-box)*28) calc(var(--base-box)*15) #333333,
-
-  calc(var(--base-box)*4)  calc(var(--base-box)*16) #333333,
-  calc(var(--base-box)*5)  calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*6)  calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*14) calc(var(--base-box)*16) #333333,
-  calc(var(--base-box)*15) calc(var(--base-box)*16) #333333,
-  calc(var(--base-box)*16) calc(var(--base-box)*16) #333333,
-  calc(var(--base-box)*17) calc(var(--base-box)*16) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*19) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*16) #d7edeb,
-  calc(var(--base-box)*27) calc(var(--base-box)*16) #333333,
-
-  calc(var(--base-box)*4)  calc(var(--base-box)*17) #333333,
-  calc(var(--base-box)*5)  calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*6)  calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*14) calc(var(--base-box)*17) #333333,
-  calc(var(--base-box)*17) calc(var(--base-box)*17) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*19) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*17) #d7edeb,
-  calc(var(--base-box)*27) calc(var(--base-box)*17) #333333,
-
-  calc(var(--base-box)*4)  calc(var(--base-box)*18) #333333,
-  calc(var(--base-box)*5)  calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*6)  calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*14) calc(var(--base-box)*18) #333333,
-  calc(var(--base-box)*17) calc(var(--base-box)*18) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*19) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*18) #d7edeb,
-  calc(var(--base-box)*27) calc(var(--base-box)*18) #333333,
-
-  calc(var(--base-box)*5)  calc(var(--base-box)*19) #333333,
-  calc(var(--base-box)*6)  calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*7)  calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*8)  calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*9)  calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*10) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*11) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*12) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*13) calc(var(--base-box)*19) #333333,
-  calc(var(--base-box)*18) calc(var(--base-box)*19) #333333,
-  calc(var(--base-box)*19) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*20) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*21) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*22) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*23) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*24) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*25) calc(var(--base-box)*19) #d7edeb,
-  calc(var(--base-box)*26) calc(var(--base-box)*19) #333333,
-
-  calc(var(--base-box)*6)  calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*7)  calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*8)  calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*9)  calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*10) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*11) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*12) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*19) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*19) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*20) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*21) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*22) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*23) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*24) calc(var(--base-box)*20) #333333,
-  calc(var(--base-box)*25) calc(var(--base-box)*20) #333333,
-
-  calc(var(--base-box)*31) calc(var(--base-box)*30) transparent;
+}
+.glass {
+  background: #d7edeb;
+  border: 1px solid #d7edeb;
+}
+.flame {
+  background: #333333;
+  border: 1px solid #333333;
 }
