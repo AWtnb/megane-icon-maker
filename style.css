@@ -1,6 +1,3 @@
-:root {
-  --max-px: 320px;
-}
 
 body {
   margin: 20px;
@@ -10,7 +7,7 @@ body {
   margin: 10px 0;
 }
 .colorCode {
-  width: var(--max-px);
+  width: 320px;
   text-align: end;
 }
 .colorCode::before {
@@ -19,30 +16,37 @@ body {
 
 #converter {
   border: 1px dashed #666;
-  width: var(--max-px);
-  height: var(--max-px);
+  width: 320px;
+  height: 320px;
 }
 
 #megane {
   background-color: #ccc;
-  height: var(--max-px);
-  width: var(--max-px);
+  height: 320px;
+  width: 320px;
   position: relative;
 }
 .flame, .glass {
-  width: calc(1/32 * 100%);
-  height: calc(1/32 * 100%);
+  width: 10px;
+  height: 10px;
   position: absolute;
 }
 .glass {
   background: #d7edeb;
-  border: 1px solid #d7edeb;
 }
 .flame {
   background: #333333;
-  border: 1px solid #333333;
 }
 
 #output {
   max-width: 100%;
 }
+
+.top-130 {top: 130px;}
+.top-140 {top: 140px;}
+.top-150 {top: 150px;}
+.top-160 {top: 160px;}
+.top-170 {top: 170px;}
+.top-180 {top: 180px;}
+.top-190 {top: 190px;}
+.top-200 {top: 200px;}
