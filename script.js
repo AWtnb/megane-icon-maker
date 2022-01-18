@@ -2,10 +2,10 @@ function randomizer() {
     const hex = (Math.random() * 0xFFFFFF | 0).toString(16);
     return String(("000000" + hex).slice(-6));
 }
-function randomCol() {
+
+function setColor(selector) {
     const colorCode = randomizer();
-    document.querySelector(".colorCode").innerHTML = colorCode;
-    document.querySelector("#megane").style.background = `#${colorCode}`;
+    Array.from(document.querySelectorAll(selector)).forEach(elem => elem.style.background = `#${colorCode}`);
 }
 
 function asImageFile(canvas) {

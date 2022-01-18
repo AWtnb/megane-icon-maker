@@ -6,13 +6,6 @@ body {
 .ui {
   margin: 10px 0;
 }
-.colorCode {
-  width: 320px;
-  text-align: end;
-}
-.colorCode::before {
-  content: "#";
-}
 
 #converter {
   border: 1px dashed #666;
