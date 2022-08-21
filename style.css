@@ -1,10 +1,8 @@
-
-body {
-  margin: 20px;
-}
-
 .ui {
   margin: 10px 0;
+}
+button {
+  margin: 0 8px 0 0;
 }
 
 #converter {
@@ -14,32 +12,25 @@ body {
 }
 
 #megane {
-  background-color: #ccc;
   height: 320px;
   width: 320px;
   position: relative;
 }
-.flame, .glass {
+.dot {
   width: 10px;
   height: 10px;
   position: absolute;
-}
-.glass {
-  background: #d7edeb;
-}
-.flame {
-  background: #333333;
 }
 
 #output {
   max-width: 100%;
 }
 
-.top-130 {top: 130px;}
-.top-140 {top: 140px;}
-.top-150 {top: 150px;}
-.top-160 {top: 160px;}
-.top-170 {top: 170px;}
-.top-180 {top: 180px;}
-.top-190 {top: 190px;}
-.top-200 {top: 200px;}
+.top-130 div {top: 130px;}
+.top-140 div {top: 140px;}
+.top-150 div {top: 150px;}
+.top-160 div {top: 160px;}
+.top-170 div {top: 170px;}
+.top-180 div {top: 180px;}
+.top-190 div {top: 190px;}
+.top-200 div {top: 200px;}
