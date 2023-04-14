@@ -1,14 +1,9 @@
-.ui {
-  margin: 10px 0;
-}
-button {
-  margin: 0 8px 0 0;
+body {
+  padding-bottom: 50vh;
 }
 
-#converter {
-  border: 1px dashed #666;
-  width: 320px;
-  height: 320px;
+button.convert {
+  margin: 8px 0;
 }
 
 #megane {
@@ -26,11 +21,50 @@ button {
   max-width: 100%;
 }
 
-.top-130 div {top: 130px;}
-.top-140 div {top: 140px;}
-.top-150 div {top: 150px;}
-.top-160 div {top: 160px;}
-.top-170 div {top: 170px;}
-.top-180 div {top: 180px;}
-.top-190 div {top: 190px;}
-.top-200 div {top: 200px;}
+.top-130 div {
+  top: 130px;
+}
+.top-140 div {
+  top: 140px;
+}
+.top-150 div {
+  top: 150px;
+}
+.top-160 div {
+  top: 160px;
+}
+.top-170 div {
+  top: 170px;
+}
+.top-180 div {
+  top: 180px;
+}
+.top-190 div {
+  top: 190px;
+}
+.top-200 div {
+  top: 200px;
+}
+
+button[aria-labelledby] {
+  display: none;
+}
+
+.picker {
+  position: relative;
+  width: 280px;
+  display: flex;
+}
+.picker .clr-field {
+  width: 100%;
+}
+.picker input {
+  box-sizing: border-box;
+  width: 100%;
+}
+.picker button.random {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+}
