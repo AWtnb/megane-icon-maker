@@ -1,8 +1,34 @@
 body {
-  padding-bottom: 50vh;
+  width: 660px;
+  margin: 100px auto 0 auto;
 }
 
-button.convert {
+#app {
+  display: flex;
+  justify-content: space-between;
+}
+
+#result .ui {
+  display: flex;
+  justify-content: space-between;
+}
+
+#converter {
+  display: none;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+}
+
+select {
+  margin: 8px 0;
+}
+
+button.download {
   margin: 8px 0;
 }
 

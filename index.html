@@ -5,9 +5,12 @@
     <title>iconmaker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <base target="_blank">
-
+    <!-- Chrome / Firefox / Edge -->
     <link rel="icon"
-        href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20style%3D%22dominant-baseline%3Acentral%3Btext-anchor%3Amiddle%3Bfont-size%3A90px%3B%22%3E%26%23x1F453%3B%3C/text%3E%3C/svg%3E">
+        href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20style%3D%22dominant-baseline%3Acentral%3Btext-anchor%3Amiddle%3Bfont-size%3A90px%3B%22%3E%F0%9F%91%93%EF%B8%8F%3C%2Ftext%3E%3C%2Fsvg%3E">
+    <!-- Safari / IE -->
+    <link rel="icon alternate" type="image/png"
+        href="https://cdn.jsdelivr.net/gh/jdecked/twemoji@latest/assets/72x72/1f453.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <link rel="stylesheet" type="text/css" href="coloris.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -79,217 +82,208 @@
                 </div>
             </li>
         </ul>
-        <div id="container">
-            <div id="megane" :style="{background: bg}">
-
-                <div class="top-130">
-                    <dot :col="cell" :left="50"></dot>
-                    <dot :col="cell" :left="60"></dot>
-                    <dot :col="cell" :left="70"></dot>
-                    <dot :col="cell" :left="80"></dot>
-                    <dot :col="cell" :left="90"></dot>
-                    <dot :col="cell" :left="100"></dot>
-                    <dot :col="cell" :left="110"></dot>
-                    <dot :col="cell" :left="120"></dot>
-                    <dot :col="cell" :left="130"></dot>
-                    <dot :col="cell" :left="180"></dot>
-                    <dot :col="cell" :left="190"></dot>
-                    <dot :col="cell" :left="200"></dot>
-                    <dot :col="cell" :left="210"></dot>
-                    <dot :col="cell" :left="220"></dot>
-                    <dot :col="cell" :left="230"></dot>
-                    <dot :col="cell" :left="240"></dot>
-                    <dot :col="cell" :left="250"></dot>
-                    <dot :col="cell" :left="260"></dot>
+        <div id="result">
+            <div id="container">
+                <div id="megane" :style="{background: bg}">
+                    <div class="top-130">
+                        <dot :col="cell" :left="50"></dot>
+                        <dot :col="cell" :left="60"></dot>
+                        <dot :col="cell" :left="70"></dot>
+                        <dot :col="cell" :left="80"></dot>
+                        <dot :col="cell" :left="90"></dot>
+                        <dot :col="cell" :left="100"></dot>
+                        <dot :col="cell" :left="110"></dot>
+                        <dot :col="cell" :left="120"></dot>
+                        <dot :col="cell" :left="130"></dot>
+                        <dot :col="cell" :left="180"></dot>
+                        <dot :col="cell" :left="190"></dot>
+                        <dot :col="cell" :left="200"></dot>
+                        <dot :col="cell" :left="210"></dot>
+                        <dot :col="cell" :left="220"></dot>
+                        <dot :col="cell" :left="230"></dot>
+                        <dot :col="cell" :left="240"></dot>
+                        <dot :col="cell" :left="250"></dot>
+                        <dot :col="cell" :left="260"></dot>
+                    </div>
+                    <div class="top-140">
+                        <dot :col="cell" :left="30"></dot>
+                        <dot :col="cell" :left="40"></dot>
+                        <dot :col="cell" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="cell" :left="130"></dot>
+                        <dot :col="cell" :left="140"></dot>
+                        <dot :col="cell" :left="170"></dot>
+                        <dot :col="cell" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="cell" :left="260"></dot>
+                        <dot :col="cell" :left="270"></dot>
+                        <dot :col="cell" :left="280"></dot>
+                    </div>
+                    <div class="top-150">
+                        <dot :col="cell" :left="30"></dot>
+                        <dot :col="cell" :left="40"></dot>
+                        <dot :col="lens" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="lens" :left="130"></dot>
+                        <dot :col="cell" :left="140"></dot>
+                        <dot :col="cell" :left="150"></dot>
+                        <dot :col="cell" :left="160"></dot>
+                        <dot :col="cell" :left="170"></dot>
+                        <dot :col="lens" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="lens" :left="260"></dot>
+                        <dot :col="cell" :left="270"></dot>
+                        <dot :col="cell" :left="280"></dot>
+                    </div>
+                    <div class="top-160">
+                        <dot :col="cell" :left="40"></dot>
+                        <dot :col="lens" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="lens" :left="130"></dot>
+                        <dot :col="cell" :left="140"></dot>
+                        <dot :col="cell" :left="150"></dot>
+                        <dot :col="cell" :left="160"></dot>
+                        <dot :col="cell" :left="170"></dot>
+                        <dot :col="lens" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="lens" :left="260"></dot>
+                        <dot :col="cell" :left="270"></dot>
+                    </div>
+                    <div class="top-170">
+                        <dot :col="cell" :left="40"></dot>
+                        <dot :col="lens" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="lens" :left="130"></dot>
+                        <dot :col="cell" :left="140"></dot>
+                        <dot :col="cell" :left="170"></dot>
+                        <dot :col="lens" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="lens" :left="260"></dot>
+                        <dot :col="cell" :left="270"></dot>
+                    </div>
+                    <div class="top-180">
+                        <dot :col="cell" :left="40"></dot>
+                        <dot :col="lens" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="lens" :left="130"></dot>
+                        <dot :col="cell" :left="140"></dot>
+                        <dot :col="cell" :left="170"></dot>
+                        <dot :col="lens" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="lens" :left="260"></dot>
+                        <dot :col="cell" :left="270"></dot>
+                    </div>
+                    <div class="top-190">
+                        <dot :col="cell" :left="50"></dot>
+                        <dot :col="lens" :left="60"></dot>
+                        <dot :col="lens" :left="70"></dot>
+                        <dot :col="lens" :left="80"></dot>
+                        <dot :col="lens" :left="90"></dot>
+                        <dot :col="lens" :left="100"></dot>
+                        <dot :col="lens" :left="110"></dot>
+                        <dot :col="lens" :left="120"></dot>
+                        <dot :col="cell" :left="130"></dot>
+                        <dot :col="cell" :left="180"></dot>
+                        <dot :col="lens" :left="190"></dot>
+                        <dot :col="lens" :left="200"></dot>
+                        <dot :col="lens" :left="210"></dot>
+                        <dot :col="lens" :left="220"></dot>
+                        <dot :col="lens" :left="230"></dot>
+                        <dot :col="lens" :left="240"></dot>
+                        <dot :col="lens" :left="250"></dot>
+                        <dot :col="cell" :left="260"></dot>
+                    </div>
+                    <div class="top-200">
+                        <dot :col="cell" :left="60"></dot>
+                        <dot :col="cell" :left="70"></dot>
+                        <dot :col="cell" :left="80"></dot>
+                        <dot :col="cell" :left="90"></dot>
+                        <dot :col="cell" :left="100"></dot>
+                        <dot :col="cell" :left="110"></dot>
+                        <dot :col="cell" :left="120"></dot>
+                        <dot :col="cell" :left="190"></dot>
+                        <dot :col="cell" :left="190"></dot>
+                        <dot :col="cell" :left="200"></dot>
+                        <dot :col="cell" :left="210"></dot>
+                        <dot :col="cell" :left="220"></dot>
+                        <dot :col="cell" :left="230"></dot>
+                        <dot :col="cell" :left="240"></dot>
+                        <dot :col="cell" :left="250"></dot>
+                    </div>
                 </div>
-
-                <div class="top-140">
-                    <dot :col="cell" :left="30"></dot>
-                    <dot :col="cell" :left="40"></dot>
-                    <dot :col="cell" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="cell" :left="130"></dot>
-                    <dot :col="cell" :left="140"></dot>
-                    <dot :col="cell" :left="170"></dot>
-                    <dot :col="cell" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="cell" :left="260"></dot>
-                    <dot :col="cell" :left="270"></dot>
-                    <dot :col="cell" :left="280"></dot>
-                </div>
-
-                <div class="top-150">
-                    <dot :col="cell" :left="30"></dot>
-                    <dot :col="cell" :left="40"></dot>
-                    <dot :col="lens" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="lens" :left="130"></dot>
-                    <dot :col="cell" :left="140"></dot>
-                    <dot :col="cell" :left="150"></dot>
-                    <dot :col="cell" :left="160"></dot>
-                    <dot :col="cell" :left="170"></dot>
-                    <dot :col="lens" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="lens" :left="260"></dot>
-                    <dot :col="cell" :left="270"></dot>
-                    <dot :col="cell" :left="280"></dot>
-                </div>
-
-                <div class="top-160">
-                    <dot :col="cell" :left="40"></dot>
-                    <dot :col="lens" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="lens" :left="130"></dot>
-                    <dot :col="cell" :left="140"></dot>
-                    <dot :col="cell" :left="150"></dot>
-                    <dot :col="cell" :left="160"></dot>
-                    <dot :col="cell" :left="170"></dot>
-                    <dot :col="lens" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="lens" :left="260"></dot>
-                    <dot :col="cell" :left="270"></dot>
-                </div>
-
-                <div class="top-170">
-                    <dot :col="cell" :left="40"></dot>
-                    <dot :col="lens" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="lens" :left="130"></dot>
-                    <dot :col="cell" :left="140"></dot>
-                    <dot :col="cell" :left="170"></dot>
-                    <dot :col="lens" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="lens" :left="260"></dot>
-                    <dot :col="cell" :left="270"></dot>
-                </div>
-
-                <div class="top-180">
-                    <dot :col="cell" :left="40"></dot>
-                    <dot :col="lens" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="lens" :left="130"></dot>
-                    <dot :col="cell" :left="140"></dot>
-                    <dot :col="cell" :left="170"></dot>
-                    <dot :col="lens" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="lens" :left="260"></dot>
-                    <dot :col="cell" :left="270"></dot>
-                </div>
-
-                <div class="top-190">
-                    <dot :col="cell" :left="50"></dot>
-                    <dot :col="lens" :left="60"></dot>
-                    <dot :col="lens" :left="70"></dot>
-                    <dot :col="lens" :left="80"></dot>
-                    <dot :col="lens" :left="90"></dot>
-                    <dot :col="lens" :left="100"></dot>
-                    <dot :col="lens" :left="110"></dot>
-                    <dot :col="lens" :left="120"></dot>
-                    <dot :col="cell" :left="130"></dot>
-                    <dot :col="cell" :left="180"></dot>
-                    <dot :col="lens" :left="190"></dot>
-                    <dot :col="lens" :left="200"></dot>
-                    <dot :col="lens" :left="210"></dot>
-                    <dot :col="lens" :left="220"></dot>
-                    <dot :col="lens" :left="230"></dot>
-                    <dot :col="lens" :left="240"></dot>
-                    <dot :col="lens" :left="250"></dot>
-                    <dot :col="cell" :left="260"></dot>
-                </div>
-
-                <div class="top-200">
-                    <dot :col="cell" :left="60"></dot>
-                    <dot :col="cell" :left="70"></dot>
-                    <dot :col="cell" :left="80"></dot>
-                    <dot :col="cell" :left="90"></dot>
-                    <dot :col="cell" :left="100"></dot>
-                    <dot :col="cell" :left="110"></dot>
-                    <dot :col="cell" :left="120"></dot>
-                    <dot :col="cell" :left="190"></dot>
-                    <dot :col="cell" :left="190"></dot>
-                    <dot :col="cell" :left="200"></dot>
-                    <dot :col="cell" :left="210"></dot>
-                    <dot :col="cell" :left="220"></dot>
-                    <dot :col="cell" :left="230"></dot>
-                    <dot :col="cell" :left="240"></dot>
-                    <dot :col="cell" :left="250"></dot>
-                </div>
-
+            </div>
+            <div class="ui">
+                <select v-model="size">
+                    <option disabled value="">---</option>
+                    <option>320px</option>
+                    <option>640px</option>
+                    <option>960px</option>
+                    <option>1280px</option>
+                </select>
+                <button @click="downloadImg" class="download" :disabled="size.length < 1">DOWNLOAD</button>
             </div>
         </div>
-        <div class="ui">
-            <button @click="convert" class="convert">CONVERT</button>
-            <select v-model="size">
-                <!-- <option disabled value="">size</option> -->
-                <option>320px</option>
-                <option>640px</option>
-                <option>960px</option>
-                <option>1280px</option>
-            </select>
-        </div>
-        <div id="converter">
-            <img id="output" :src="base64src">
-        </div>
+        <div id="converter"><a :href="base64src" download="megane.png"></a></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
@@ -325,7 +319,7 @@
                     lens: "#d7edeb",
                     cell: "#333333",
                     bg: "#cccccc",
-                    size: "320px",
+                    size: "",
                     base64src: "",
                 }
             },
@@ -336,9 +330,6 @@
                 randomColor: function () {
                     const hex = (Math.random() * 0xFFFFFF | 0).toString(16);
                     return "#" + String(("000000" + hex).slice(-6));
-                },
-                reset: function () {
-                    this.base64src = "";
                 },
                 convert: function () {
                     const target = document.getElementById("megane");
@@ -353,12 +344,23 @@
                         scrollX: 0,
                         scrollY: -window.scrollY,
                     }).then((canvas) => {
-                        this.reset();
                         this.base64src = canvas.toDataURL("image/png");
                     });
+                },
+                downloadImg: function () {
+                    document.querySelector("#converter > a").click();
                 }
             },
             watch: {
+                bg: function () {
+                    this.size = "";
+                },
+                cell: function () {
+                    this.size = "";
+                },
+                lens: function () {
+                    this.size = "";
+                },
                 size: function () {
                     this.convert();
                 }
